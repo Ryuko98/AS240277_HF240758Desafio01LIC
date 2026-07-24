@@ -1,0 +1,17 @@
+body {
+  background-color: #64a882;
+  color: #1e1e1e;
+  transition: background-color 0.3s ease; /* Transición suave al redimensionar */
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    background-color: #f9da5f;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-color: #5854de;
+  }
+}
